@@ -19,13 +19,13 @@ window.SITE_DATA = {
 
   profile: {
     // TODO: Replace the two lines below.
-    position: "[Position]",
-    affiliation: "[Department], [Institution]",
+    position: "Ph.D. Student",
+    affiliation: "Department of Mathematics, Seoul National University",
     location: "Republic of Korea",
 
     // Leave photo empty to use the monogram portrait.
     // Example: photo: "assets/profile.jpg"
-    photo: "",
+    photo: "Portrait.jpg",
     photoAlt: "Portrait of Seong Youn Kim",
 
     headline:
@@ -37,7 +37,7 @@ window.SITE_DATA = {
     ],
 
     // TODO: Replace with your actual public email.
-    email: "your.email@institution.edu"
+    email: "s264575@snu.ac.kr"
   },
 
   links: [
