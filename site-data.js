@@ -77,9 +77,9 @@ window.SITE_DATA = {
     {
       label: "GitHub",
       // TODO: Add your GitHub profile URL.
-      url: "",
+      url: "https://github.com/seongyounkim",
       icon: "external",
-      enabled: false
+      enabled: true
     }
   ],
 
