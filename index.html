@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#f5f0e8" />
+    <meta name="description" content="Research website of Seong Youn Kim" />
+
+    <title>Seong Youn Kim | Mathematics</title>
+
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="site-data.js"></script>
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" id="top">
+      <div class="header-inner shell">
+        <a class="wordmark" href="#top" aria-label="Home">
+          <span class="wordmark-mark" id="wordmark-mark">SYK</span>
+          <span class="wordmark-name" id="wordmark-name">Seong Youn Kim</span>
+        </a>
+
+        <nav class="desktop-nav" aria-label="Primary navigation">
+          <a href="#about">About</a>
+          <a href="#research">Research</a>
+          <a href="#publications">Publications</a>
+          <a href="#talks" data-optional-nav="talks">Talks</a>
+          <a href="#teaching" data-optional-nav="teaching">Teaching</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+          <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch color theme">
+            <span aria-hidden="true">◐</span>
+          </button>
+          <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav">
+            <span class="sr-only">Open navigation</span>
+            <span></span><span></span>
+          </button>
+        </div>
+      </div>
+
+      <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#talks" data-optional-nav="talks">Talks</a>
+        <a href="#teaching" data-optional-nav="teaching">Teaching</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero shell" aria-labelledby="hero-title">
+        <div class="hero-copy reveal">
+          <p class="eyebrow" id="hero-eyebrow">Mathematics · Geometric Topology · Moduli Spaces</p>
+          <h1 id="hero-title">Seong Youn Kim</h1>
+          <p class="hero-position" id="hero-position">[Position] · [Department], [Institution]</p>
+          <p class="hero-headline" id="hero-headline"></p>
+          <div class="hero-links" id="hero-links"></div>
+        </div>
+
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="portrait-frame" id="portrait-frame">
+            <img id="profile-photo" alt="" hidden />
+            <div class="monogram" id="profile-monogram">SYK</div>
+            <svg class="orbit orbit-one" viewBox="0 0 300 300" role="presentation">
+              <ellipse cx="150" cy="150" rx="136" ry="75" />
+            </svg>
+            <svg class="orbit orbit-two" viewBox="0 0 300 300" role="presentation">
+              <ellipse cx="150" cy="150" rx="124" ry="58" />
+            </svg>
+            <span class="orbit-point point-a"></span>
+            <span class="orbit-point point-b"></span>
+            <span class="orbit-point point-c"></span>
+          </div>
+          <p class="visual-caption">surfaces · representations · invariants</p>
+        </div>
+      </section>
+
+      <section class="section shell" id="about" aria-labelledby="about-title">
+        <div class="section-heading reveal">
+          <p class="section-number">01</p>
+          <h2 id="about-title">About</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-copy reveal" id="bio-copy"></div>
+          <aside class="profile-card reveal">
+            <dl>
+              <div>
+                <dt>Position</dt>
+                <dd id="profile-position"></dd>
+              </div>
+              <div>
+                <dt>Affiliation</dt>
+                <dd id="profile-affiliation"></dd>
+              </div>
+              <div>
+                <dt>Location</dt>
+                <dd id="profile-location"></dd>
+              </div>
+              <div>
+                <dt>Research</dt>
+                <dd>Geometry, topology, and moduli</dd>
+              </div>
+            </dl>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section section-tinted" id="research" aria-labelledby="research-title">
+        <div class="shell">
+          <div class="section-heading reveal">
+            <p class="section-number">02</p>
+            <h2 id="research-title">Research</h2>
+          </div>
+          <p class="section-intro reveal">
+            I use algebraic, geometric, and combinatorial methods to study moduli spaces associated with surfaces.
+          </p>
+          <div class="research-grid" id="research-grid"></div>
+        </div>
+      </section>
+
+      <section class="section shell optional-section" id="news" aria-labelledby="news-title">
+        <div class="section-heading reveal">
+          <p class="section-number">03</p>
+          <h2 id="news-title">News</h2>
+        </div>
+        <div class="news-list" id="news-list"></div>
+      </section>
+
+      <section class="section shell" id="publications" aria-labelledby="publications-title">
+        <div class="section-heading reveal">
+          <p class="section-number" id="publications-number">04</p>
+          <h2 id="publications-title">Publications & preprints</h2>
+        </div>
+        <p class="section-intro reveal">
+          Titles below link to the corresponding preprints. BibTeX entries can be copied directly.
+        </p>
+        <div class="publication-list" id="publication-list"></div>
+      </section>
+
+      <section class="section section-tinted optional-section" id="talks" aria-labelledby="talks-title">
+        <div class="shell">
+          <div class="section-heading reveal">
+            <p class="section-number">05</p>
+            <h2 id="talks-title">Selected talks</h2>
+          </div>
+          <div class="timeline" id="talks-list"></div>
+        </div>
+      </section>
+
+      <section class="section shell optional-section" id="teaching" aria-labelledby="teaching-title">
+        <div class="section-heading reveal">
+          <p class="section-number">06</p>
+          <h2 id="teaching-title">Teaching</h2>
+        </div>
+        <div class="teaching-list" id="teaching-list"></div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="shell contact-grid">
+          <div class="reveal">
+            <p class="section-number">Contact</p>
+            <h2 id="contact-title">Let’s talk mathematics.</h2>
+          </div>
+          <div class="contact-copy reveal">
+            <p>
+              For questions about my work, seminar invitations, or possible collaborations, please feel free to get in touch.
+            </p>
+            <a class="contact-email" id="contact-email" href="mailto:your.email@institution.edu">your.email@institution.edu</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-inner">
+        <p>© <span id="current-year"></span> <span id="footer-name">Seong Youn Kim</span></p>
+        <p id="footer-note"></p>
+        <p>Last updated <span id="last-updated"></span></p>
+      </div>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite">BibTeX copied</div>
+  </body>
+</html>
