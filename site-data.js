@@ -111,7 +111,7 @@ window.SITE_DATA = {
   ],
 
   news: {
-    show: true,
+    show: false,
     items: [
       {
         date: "2026-08-31",
